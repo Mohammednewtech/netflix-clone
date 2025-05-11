@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #111;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.netflex-outer-container{
+  background-color: transparent;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 10vh;
+  position: sticky;
+  top: 0;
+ z-index: 1;
+ display: flex;
+ flex-direction: row;
+}
+.netflix-container{
+    width: 65%;
+    padding: 5px 0;
+    text-align: center;
+    margin: auto;
+}
+.netflix-container ul{
+    display: flex;
+    flex-direction: row;
+}
+.netflix-container ul li{
+    list-style: none;
+    padding-left: 25px;
+    font-size: 18px;
+}
+.netflix-container ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+.netflix-container ul li a:hover{
+    color: gray;
+    opacity: 0.8;
+    font-size: 19px;
+}
+.netflix-container ul li a img{
+    height: 25px;
+    color: white;
+}
+.netflix-icons ul{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+.netflix-icons ul li{
+    list-style: none;
+}
+.netflix-icons ul li a{
+    color:white;
+    text-decoration: none;
+}

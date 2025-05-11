@@ -1,0 +1,42 @@
+
+li{
+    list-style: none;
+
+
+}
+a{
+    text-decoration: none;
+    color: gray
+}
+.netflix-footer{
+    width: 80%;
+    margin: auto;
+    color: gray;
+    font-size: 15px;
+
+}
+.footericon{
+  color: white;
+  padding-left: 50px;
+  gap: 20px;
+  cursor: pointer;
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.instagram{
+    padding: 0 25px;
+}
+.footer-content ul li{
+    line-height: 2.5;
+}
+.serviceadicon p{
+   border: solid white 1px;
+   width: 120px;
+   margin-left: 40px;
+}
+.serviceadicon div{
+    margin-left: 40px;
+ }
