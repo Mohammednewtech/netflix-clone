@@ -12,7 +12,7 @@ function Footer() {
           <InstagramIcon  className='instagram'/>
           <YouTubeIcon />
         </div>
-    <div class="footer-content">
+    <div className="footer-content">
           <div className="firstDscription">
             <ul>
               <li><a href="">Audio description</a></li>
