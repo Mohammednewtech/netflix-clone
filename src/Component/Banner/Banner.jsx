@@ -15,7 +15,7 @@ const Banner = () => {
       } catch (error) {
         console.log("error", error);
       }
-    })();
+    }) ();
   }, []);
 
   const truncate = (string, n) => {
@@ -26,7 +26,7 @@ const Banner = () => {
       className="banner"
       style={{
         backgroundSize: "cover",
-        backgroundImage: `url("https://image.tmdb.org/t/p/original${movie?.backdrop_path}")`,
+        backgroundImage: `url("https://image.tmdb.org/t/p/w500${movie?.backdrop_path}")`,
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
